@@ -5,7 +5,7 @@ import React from 'react'
 
 const Leaderboard = () => {
     return (
-        <main className='pt-20 pb-32 large-screen'>
+        <main className='pt-20 pb-32'>
             <ReturnHeader page='leaderboard' push='/dashboard' />
             <div className="container">
                 <div className="leader-banner">

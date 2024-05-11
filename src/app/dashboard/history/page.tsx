@@ -5,7 +5,7 @@ import { IoTelescopeOutline } from "react-icons/io5";
 
 const History = () => {
     return (
-        <main className='pt-20 large-screen'>
+        <main className='pt-20'>
             <ReturnHeader page='history' push='/dashboard' />
             <div className='history-content'>
                 <h4 className='mb-4'>Today</h4>
