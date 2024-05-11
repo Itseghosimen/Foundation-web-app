@@ -39,6 +39,7 @@ const Boost = () => {
                                     <div className="w-full flex justify-between items-center">
                                         <div className="flex gap-3 items-center">
                                             <div className="icon-container">
+                                                {/* Can be replaced with an image tag if image is to be rendered instead */}
                                                 {items.type == "invite" && !items.completed && (
                                                     <HiMiniUserGroup />
                                                 )}
