@@ -5,7 +5,7 @@ import { FaCrown } from 'react-icons/fa';
 const TrackPositions = () => {
     return (
         <>
-            <ul className="my-5  space-y-3">
+            <ul className="my-5  space-y-5">
                 {rankings.map(
                     (ranking, idx) =>
                         idx <= 2 && (
@@ -13,7 +13,7 @@ const TrackPositions = () => {
                                 key={idx}
                             >
                                 <div
-                                    className={`flex items-center justify-between ${idx == 0 && "w-[70%] bg-[#268f9b]"
+                                    className={`flex items-center justify-between ${idx == 0 && "w-[65%] bg-[#268f9b]"
                                         } ${idx == 1 && "w-[55%] bg-[#5F37E6]"} ${idx == 2 && "bg-black w-[45%]"} p-2 pl-3 rounded-r-3xl`}
                                 >
                                     <div className="flex items-center">
@@ -28,8 +28,8 @@ const TrackPositions = () => {
                                     <Image
                                         src='/user.png'
                                         alt='profile'
-                                        width={45}
-                                        height={45}
+                                        width={50}
+                                        height={50}
                                         className="rounded-full border-2 border-white "
                                     />
                                 </div>
@@ -59,8 +59,8 @@ const TrackPositions = () => {
                                     <Image
                                         src='/user.png'
                                         alt='profile'
-                                        width={45}
-                                        height={45}
+                                        width={50}
+                                        height={50}
                                         className="rounded-full border-2 border-white "
                                     />
                                     <div>
@@ -91,8 +91,8 @@ const TrackPositions = () => {
                     <Image
                         src='/user.png'
                         alt='profile'
-                        width={45}
-                        height={45}
+                        width={55}
+                        height={55}
                         className="rounded-full border-2 border-white "
                     />
                     <div className="flex items-center gap-3 w-fit">
